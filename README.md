@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# NvChad Docs
 
-You can use the [editor on GitHub](https://github.com/cleancoder-devops/cleancoder-devops.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[Docusaurus](https://docusaurus.io) based documentation page for [NvChad](https://github.com/nvchad/nvchad)!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 🏗 Getting Started
 
-### Markdown
+To get a local version of the site up and running, you must do the following.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Clone the repository `$ git clone https://github.com/nvchad/nvchad.github.io.git`
+2. Install the dependencies `$ cd site && yarn`
+3. Launch the dev server `$ yarn start`
 
-```markdown
-Syntax highlighted code block
+You should then have a local development environment up and running at [`http://localhost:3000`](http://localhost:3000)!
 
-# Header 1
-## Header 2
-### Header 3
+## 👷 Contributions
 
-- Bulleted
-- List
+All contributions are welcome, but please stick to the `prettier` settings!
 
-1. Numbered
-2. List
+## 📝 License
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cleancoder-devops/cleancoder-devops.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+MIT
